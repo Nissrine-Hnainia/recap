@@ -5,7 +5,7 @@ const User = ({fullName, description, image}) => {
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} />
+                <Card.Img variant="top" src={image} alt="person"/>
                 <Card.Body>
                     <Card.Title>{fullName}</Card.Title>
                     <Card.Text>
